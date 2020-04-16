@@ -2146,6 +2146,7 @@ class UIRoot extends Component {
 
                 {!streaming && (
                   <button
+                    aria-label="Favorite"
                     onClick={() => this.toggleFavorited()}
                     className={classNames({
                       [entryStyles.favorited]: this.isFavorited(),
